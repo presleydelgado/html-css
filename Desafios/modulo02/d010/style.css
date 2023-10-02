@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf');
+}
+
+
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83E1AD;
+    margin: auto;
+    padding: 0%;
+    
+    
+    
+}
+
+nav{
+    color: #ffffff;
+    text-align: left;
+    margin: auto;
+    padding: 1px;
+    display: block;
+    word-wrap: break-word;
+
+}
+
+nav > a{
+    color:white;
+    background-color: transparent;
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+    
+}
+
+div{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+header{
+    background-color: #2fa866;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 1px 1px 10px 1px black;
+    background-image: linear-gradient(to top , #063d1e, #3ddc84);
+    
+}
+
+.button1{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 51, 0);
+}
+.button1:hover{
+    background-color: black;
+    color: red;
+}
+
+
+article{
+    word-wrap: break-word;
+    background-color: white;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 6px 1px black;
+    
+    
+    
+}
+
+a{
+    color: #063d1e;
+    background-color: #2fa86591;
+    text-decoration: none;
+}
+
+
+
+.tituloprincipal{
+    font-family: 'droid';
+    font-weight: normal;
+    margin-top: 0px;
+    color: white;
+    text-shadow: 2px 1px 3px black;
+}
+
+.pprincipal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 1px 3px black;
+}
+
+h1{
+    font-family: 'droid';
+    font-weight: bold;
+    overflow: auto;
+    
+}
+
+h2{
+    font-family: 'droid';
+    font-weight: normal;
+    color: #1f8d50;
+    text-indent: 10px;
+    text-align: left;
+    background-color:  #83e1ad91;
+    background-image: linear-gradient(to right, #83e1ad , #cceedb2f );
+    
+}
+
+h3{
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 15px;
+    background-color: #2fa866;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section{
+    background-color: #99f0c0d2;
+    border-radius: 10px 10px;
+    text-indent: 10px;
+    
+    
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    text-indent: 50px;
+}
+  
+  ul li:before {
+    content: '✓';
+  }
+
+.segunda{
+    display: inline-block;
+    display: inline-block;
+    text-align: left;
+    text-indent: 50px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #063d1e;
+
+}
