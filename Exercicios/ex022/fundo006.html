@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - Background 
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -26,6 +34,8 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas tempora nisi non aspernatur iste minus sequi dignissimos illum blanditiis ipsa quisquam maiores accusamus? Ut beatae unde accusamus voluptate aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tempore. Repellendus optio rem dolores recusandae repudiandae expedita, error assumenda impedit molestiae minus ad odit at rerum dicta quis in distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolor cum voluptatum quasi veniam facere maiores, quam illo recusandae porro assumenda dignissimos repellat nostrum mollitia necessitatibus quisquam, suscipit saepe nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas tempora nisi non aspernatur iste minus sequi dignissimos illum blanditiis ipsa quisquam maiores accusamus? Ut beatae unde accusamus voluptate aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tempore. Repellendus optio rem dolores recusandae repudiandae expedita, error assumenda impedit molestiae minus ad odit at rerum dicta quis in distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolor cum voluptatum quasi veniam facere maiores, quam illo recusandae porro assumenda dignissimos repellat nostrum mollitia necessitatibus quisquam, suscipit saepe nesciunt?</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quas tempora nisi non aspernatur iste minus sequi dignissimos illum blanditiis ipsa quisquam maiores accusamus? Ut beatae unde accusamus voluptate aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tempore. Repellendus optio rem dolores recusandae repudiandae expedita, error assumenda impedit molestiae minus ad odit at rerum dicta quis in distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolor cum voluptatum quasi veniam facere maiores, quam illo recusandae porro assumenda dignissimos repellat nostrum mollitia necessitatibus quisquam, suscipit saepe nesciunt?</p>
     </main>
 </body>
