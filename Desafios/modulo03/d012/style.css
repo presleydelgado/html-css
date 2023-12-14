@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-style: italic;
+    
 }
 
 header {
@@ -12,7 +16,10 @@ header {
 }
 
 body {
-
+    text-align: left;
+    margin: auto;
+    
+    
 }
 
 
@@ -23,16 +30,23 @@ body {
 
 .paragrafo2 {
     background-image: url(imagens/background001.jpg);
+    height: 100%;
+    width: 100%; 
     color: white;
     text-align: left;
     margin: auto;
     
-    padding-left: 50px;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.p1{
+    background-color: rgba(0, 0, 0, 0.196);
+    
 }
 
 .paragrafo4 {
@@ -40,9 +54,7 @@ body {
     color: white;
     text-align: left;
     margin: auto;
-    padding-left: 50px;
     min-height: 500px;
-    padding-left: 50px;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
