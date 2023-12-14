@@ -20,3 +20,32 @@ body {
 .paragrafo1 {
     background-color: gray;
 }
+
+.paragrafo2 {
+    background-image: url(imagens/background001.jpg);
+    color: white;
+    text-align: left;
+    margin: auto;
+    
+    padding-left: 50px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragrafo4 {
+    background-image: url(imagens/background002.jpg);
+    color: white;
+    text-align: left;
+    margin: auto;
+    padding-left: 50px;
+    min-height: 500px;
+    padding-left: 50px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
