@@ -2,4 +2,12 @@ Capitulo 21 - aula 01
 
 Você não pode usar uma tabela para ser a estrutura do seu site.
 
+Todas as tabelas simples em html tem a seguinte hierarquia:
+
+TABLE = tabela
+    TABLE ROW = lnha de tabela
+        TABLE HEADER = cabeçalho de tabela
+        TABLE DATA = dado de tabela
+
+
 
