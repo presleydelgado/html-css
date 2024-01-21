@@ -9,5 +9,9 @@ TABLE = tabela
         TABLE HEADER = cabeçalho de tabela
         TABLE DATA = dado de tabela
 
+O W3C , no html5, é opicional o fechamento das tags (tr e td) na produção de tabelas.
+
+Se tua hierarquia não for obdecida,os dados irão aparecer ou antes ou depois da tabela
+
 
 
