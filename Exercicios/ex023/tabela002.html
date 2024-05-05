@@ -11,11 +11,18 @@
         table {
             width: 500px;
             border-collapse:collapse;
+            position: relative;
         }
         td,th {
             border: 1px solid black;
             padding: 10px;
         }
+
+        th { position: sticky; top: 0; /* Isso gruda o cabeçalho no topo da tela ao rolar o scroll*/
+            background-color: rgb(78, 78, 78);
+            color: white;
+        }
+
         caption {
             font-size: 1.5em;
             font-weight: bold;
