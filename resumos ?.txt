@@ -1,0 +1,12 @@
+Para dar um efeito zebrado em uma tabela : utilize o nth-child(2n)
+
+ou assim :
+
+tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        /* Ao inves de 2n , tu poderá usar odd que é impar, ou even que é par.*/
+
+Poderá ser utilizado também o odd e even para melhores ajustes.
+
+
