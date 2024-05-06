@@ -10,3 +10,6 @@ tbody > tr:nth-child(2n){
 Poderá ser utilizado também o odd e even para melhores ajustes.
 
 
+mesclagem de tabelas
+
+
