@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela filmes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 700px;
+        }
+        td {
+            border: solid 1px black;
+            padding: 10px;
+        }
+        .titulo {
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(168, 168, 168);
+        }
+        .mulheres {
+            background-color: lightpink;
+        }
+        .homens {
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="titulo">Grupo</td>
+            <td class="titulo">Nome</td>
+            <td class="titulo" colspan="4">Filmes</td>
+        </tr>
+        <tr>
+            <td class="titulo" rowspan="4">Mulheres</td>
+        </tr>
+        <tr>
+            <td class="mulheres" >Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            <td class="mulheres" >Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td class="mulheres" >Cláudia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+        <tr>
+            <td class="titulo" rowspan="4">Homens</td>                       
+        </tr>
+
+        <tr>
+            <td class="homens" >Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+        </tr>
+
+        <tr>
+            <td class="homens" >Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        
+        <tr>
+            <td class="homens" >Fabiano Mota</td>
+            <td>Star Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
+        </tr>
+    </table>
+</body>
+</html>
