@@ -10,7 +10,7 @@
         }
         table {
             border-collapse: collapse;
-            width: 700px;
+            
         }
         th , td{
             border: 1px solid black;
@@ -21,15 +21,22 @@
 <body>
     <table>
         <tr>
-            <th>Área</th>
-            <th>Disciplinas</th>
-            <th>Notas</th>
-            <th>Nota 1</th>
-            <th>Nota 2</th>
-            <th>Média</th>
+            <th scope="col">Área</th>
+            <th scope="col">Disciplinas</th>
+
+            <th scope="colgroup" colspan="2">Notas</th>
+                
+
+            <tr>
+                <th scope="row">Nota 1</th>
+                <th scope="row">Nota 2</th>
+                <th scope="col">Média</th>
+            </tr>
+            
+            
         </tr>
         <tr>
-            <th rowspan="5">Exatas</th>
+            <th scope="rowgroup" rowspan="5">Exatas</th>
             <tr>
                 <td>Matemática</td>
             </tr>
@@ -44,15 +51,15 @@
             </tr>
         </tr>
         <tr>
-            <th>Média de Exatas</th>
+            <th scope="row">Média de Exatas</th>
         </tr>
         <tr>
-            <th>Humanas</th>
+            <th scope="rowgroup">Humanas</th>
             <td>História</td>
             <td>Geografia</td>
         </tr>
         <tr>
-            <th>Média de Humanas</th>
+            <th scope="row">Média de Humanas</th>
         </tr>
     </table>
 </body>
